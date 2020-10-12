@@ -1,5 +1,23 @@
 const sidebarCategories = {
   null: ["index", "intro/ecosystem", "intro/support"],
+  Miner: [
+    "miner/overview",
+    "miner/markets",
+    "miner/rewards",
+    "miner/payouts",
+    "miner/performance",
+    "miner/leaderboard",
+    "miner/settings",
+    "miner/hummingbotstatus",
+  ],
+  FAQ: [
+    "faq/liquidity-mining",
+    "faq/rewards",
+    "faq/payouts",
+    "faq/accounts&privacy",
+    "faq/eagle-club",
+  ],
+  Resources: ["resources/youtube"],
 };
 
 const navConfig = {

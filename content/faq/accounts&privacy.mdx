@@ -1,0 +1,56 @@
+---
+title: Accounts & Privacy
+description:
+---
+
+## Data collected with my API keys
+
+At launch, we store individual orders and trades in order to isolate and prevent potential attempts to manipulate or abuse the system by malicious liquidity miners. After the system is more mature, we will adjust the data collection process so that we only store aggregate data and do not store individual orders and trades. We never share individual order and trade data with third parties.
+
+## Data sharing and data monitoring policy
+
+## Data Sharing
+
+By participating in a Liquidity Mining Campaign, you are agreeing to share the following information with CoinAlpha and the Sponsor (e.g. the token issuer or exchange that has hired CoinAlpha to conduct the Liquidity Mining Campaign), and their respective affiliates :
+
+- Email address
+- Ethereum wallet address
+- Orders created: base currency, quote currency, fees, price, and size
+- Orders filled: base currency, quote currency, fees, price, and size
+- Exchange read-only API keys
+
+When sharing data from Hummingbot, you are solely responsible for configuring what information you agree to share through the Hummingbot log configuration settings (please see [example log template](https://github.com/CoinAlpha/hummingbot/blob/13fde61a41a0b13651117c06fc87d02a9cd55a44/hummingbot/templates/hummingbot_logs_TEMPLATE.yml)).
+
+## Data Monitoring
+
+It is the policy of CoinAlpha to monitor for and prohibit market manipulation and unlawful trading activities. Users are prohibited from using Hummingbot for purposes of market manipulation, including but not limited to wash trading, spoofing, pump-and-dump schemes or any other practices intended to mislead others by artificially affecting market activity.
+
+In the course of providing the Services, CoinAlpha may monitor and detect “suspicious activity” in the form of potential market manipulation, including activity conducted by Hummingbot accounts that have opted-in to liquidity mining campaigns and associated data collection. Based on any “suspicious activity" data, CoinAlpha may determine whether any additional steps are required, including reporting this activity to the Sponsor or the relevant exchange. Throughout the process CoinAlpha may document when and how this monitoring is carried out and the rationale for handling the activity.
+
+CoinAlpha reserves the right, at its sole discretion, to share user-provided information, as well as analysis and reports about potential market manipulation, to the Sponsors. By participating in Liquidity Mining Campaigns, you consent to such sharing, acknowledge that it may have an impact on your accounts and activity, disclaim any potential liability against CoinAlpha or Hummingbot or Sponsor or any affiliates, and waive any potential claims against CoinAlpha or Hummingbot or Sponsor or any affiliates.
+
+For additional terms related to the sharing and use of your data, please review the following:
+
+- [Coinalpha's Privacy Policy](https://hummingbot.io/privacy/)
+- [Hummingbot Apache License 2.0](https://github.com/CoinAlpha/hummingbot/blob/master/LICENSE)
+- [Hummingbot Data Collection Policy](https://github.com/CoinAlpha/hummingbot/blob/master/DATA_COLLECTION.md)
+- [Hummingbot Website Terms of Use](https://hummingbot.io/terms/)
+- Each Sponsor’s respective Privacy Policy that relates to your use of Hummingbot
+
+## Using Binance sub-accounts
+
+## Unique exchange account policy
+
+Users who participate in Liquidity Mining must use a unique exchange account that does not duplicate another user's exchange account. Since we use user's read-only API keys to credit them for their orders, this rule is required to avoid duplicate orders.
+
+For this reason, we blacklist users who create multiple accounts tied to the same exchange account.
+
+## Binance sub-accounts
+
+![sub-accounts](/img/sub-accounts.png)
+
+Binance allows institutional and VIP user accounts to create [sub-accounts](https://medium.com/binanceexchange/binance-introduces-sub-account-support-d7bf2f95e28c). Sub-accounts are separate from the main account and have their own API keys.
+
+Since Binance sub-accounts are dedicated accounts that segregated from the main Binance account, users can sign up for Hummingbot Miner using a Binance sub-account.
+
+Users should take care to use the **sub-account API keys** in both the Hummingbot client and Hummingbot Miner, not the main account API keys.
