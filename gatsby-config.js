@@ -17,7 +17,10 @@ const sidebarCategories = {
     "faq/accounts&privacy",
     "faq/eagle-club",
   ],
-  Resources: ["resources/youtube"],
+  Resources: [
+    "[Hummingbot YouTube](https://www.youtube.com/c/HummingbotChannel)",
+    "[Hummingbot Whitepaper](https://hummingbot.io/hummingbot.pdf)",
+  ],
 };
 
 const navConfig = {
